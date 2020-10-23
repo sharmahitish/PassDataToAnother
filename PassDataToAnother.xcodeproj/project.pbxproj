@@ -15,6 +15,8 @@
 		A22BBFBD2530AB3400735922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22BBFBB2530AB3400735922 /* LaunchScreen.storyboard */; };
 		A22BBFC82530AB3500735922 /* PassDataToAnotherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BBFC72530AB3500735922 /* PassDataToAnotherTests.swift */; };
 		A22BBFD32530AB3500735922 /* PassDataToAnotherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BBFD22530AB3500735922 /* PassDataToAnotherUITests.swift */; };
+		A22BBFE12530D75C00735922 /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BBFE02530D75C00735922 /* CellTableViewCell.swift */; };
+		A2F393302531DACD00AF6FC6 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3932F2531DACD00AF6FC6 /* DataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A22BBFCE2530AB3500735922 /* PassDataToAnotherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassDataToAnotherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22BBFD22530AB3500735922 /* PassDataToAnotherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassDataToAnotherUITests.swift; sourceTree = "<group>"; };
 		A22BBFD42530AB3500735922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22BBFE02530D75C00735922 /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
+		A2F3932F2531DACD00AF6FC6 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				A22BBFB22530AB2700735922 /* SceneDelegate.swift */,
 				A22BBFB42530AB2700735922 /* ViewController.swift */,
 				A22BBFB62530AB2700735922 /* Main.storyboard */,
+				A2F3932F2531DACD00AF6FC6 /* DataViewController.swift */,
+				A22BBFE02530D75C00735922 /* CellTableViewCell.swift */,
 				A22BBFB92530AB3400735922 /* Assets.xcassets */,
 				A22BBFBB2530AB3400735922 /* LaunchScreen.storyboard */,
 				A22BBFBE2530AB3400735922 /* Info.plist */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A22BBFB52530AB2700735922 /* ViewController.swift in Sources */,
+				A22BBFE12530D75C00735922 /* CellTableViewCell.swift in Sources */,
+				A2F393302531DACD00AF6FC6 /* DataViewController.swift in Sources */,
 				A22BBFB12530AB2700735922 /* AppDelegate.swift in Sources */,
 				A22BBFB32530AB2700735922 /* SceneDelegate.swift in Sources */,
 			);
